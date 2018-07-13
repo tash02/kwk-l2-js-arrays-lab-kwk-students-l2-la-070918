@@ -1,6 +1,6 @@
 // Write your solution here!
-const drivers = ["Milo", "Otis", "Garfield"]
-const ralph = ["ralph"]
+let drivers = ["Milo", "Otis", "Garfield"]
+let ralph = ["ralph"]
 function destructivelyAppendDriver () {
-  drivers = []
+  drivers = [drivers, ralph];
 }
